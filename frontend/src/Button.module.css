@@ -1,0 +1,26 @@
+.btn {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 150px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 35px;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:active {
+  background-color: darkblue;
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  background-color: deepskyblue;
+}

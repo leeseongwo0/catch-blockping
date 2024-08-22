@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 화면 전체 높이 차지 */
+  max-width: 480px; /* 최대 너비를 480px로 설정 */
+  width: 100%; /* 너비를 100%로 설정하여 화면 크기에 맞추되 최대 너비를 적용 */
+  margin: 0 auto; /* 화면 중앙에 위치하게끔 설정 */
+  padding: 10px; /* 적절한 여백 추가 */
+  box-sizing: border-box; /* 패딩과 보더를 포함한 크기 계산 */
+}
+
+.header, .footer {
+  /* Header와 Footer를 상하로 배치 */
+}
+
+.content {
+  flex: 1; /* 콘텐츠 영역이 남는 공간을 차지하도록 설정 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* 버튼과 텍스트를 수직으로 배치 */
+  padding: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  min-height: 30px; 
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
